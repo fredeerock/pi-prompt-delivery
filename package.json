@@ -1,0 +1,28 @@
+{
+  "name": "pi-prompt-delivery",
+  "version": "0.1.0",
+  "description": "Shows whether your next Pi prompt will send, steer, or queue as a follow-up.",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredeerock/pi-prompt-delivery.git"
+  },
+  "homepage": "https://github.com/fredeerock/pi-prompt-delivery#readme",
+  "keywords": [
+    "pi-package",
+    "pi-extension"
+  ],
+  "files": [
+    "index.ts",
+    "README.md"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
+}
